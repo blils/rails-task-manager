@@ -1,0 +1,11 @@
+<div class="card_funky">
+<h2><%= @task.title %></h2>
+<p><%= @task.details %></p>
+<h4><%= link_to "edit", edit_path %></h4>
+<h4><%= link_to "Go back", tasks_path %></h4>
+<h4><%= link_to "Delete",
+  task_path(@task),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%></h4>
+
+</div>

@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+#heading { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  background-color: aliceblue;
+  width: 200px;
+  margin: 0 auto;
+
+}
+
+.container { display: flex;
+justify-content: center;
+flex-direction: column;}
+
+body {
+  background-color: pink;}
+
+.listitem { padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+font-family:'Courier New', Courier, monospace;
+text-emphasis-color: black;}
+
+.card_funky {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 50px;
+  box-shadow: auto;
+}
